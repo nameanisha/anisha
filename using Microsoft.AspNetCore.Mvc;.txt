@@ -1,0 +1,16 @@
+using Microsoft.AspNetCore.Mvc;
+
+namespace week_5.Controllers
+{
+    public class Student_Controller : Controller
+    {
+        public string Index()
+        {
+            return "This page is homepage";
+        }
+        public string subjects()
+        {
+            return "This page has list of the subjects that the student is enrolled in 78 ";
+        }
+    }
+}
